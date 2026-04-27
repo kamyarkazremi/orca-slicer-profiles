@@ -1,0 +1,51 @@
+{
+    "default_print_profile": "0.20mm RedLizard K1M @Ender3 Orbiter",
+    "deretraction_speed": [
+        "30"
+    ],
+    "from": "User",
+    "gcode_flavor": "klipper",
+    "inherits": "Creality Ender-3 0.4 nozzle",
+    "machine_start_gcode": "PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] MATERIAL=[filament_type]",
+    "machine_end_gcode": "PRINT_END",
+    "machine_max_acceleration_extruding": [
+        "2000",
+        "2000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "2000",
+        "2000"
+    ],
+    "machine_max_acceleration_travel": [
+        "3000",
+        "2500"
+    ],
+    "machine_max_acceleration_x": [
+        "2000",
+        "2000"
+    ],
+    "machine_max_acceleration_y": [
+        "2000",
+        "2000"
+    ],
+    "machine_max_speed_e": [
+        "120",
+        "120"
+    ],
+    "name": "Ender-3 Orbiter1.5 RedLizard K1M 0.4 nozzle",
+    "print_host": "10.0.0.129",
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "printer_settings_id": "Ender-3 Orbiter1.5 RedLizard K1M 0.4 nozzle",
+    "retraction_length": [
+        "0.5"
+    ],
+    "retraction_minimum_travel": [
+        "1.5"
+    ],
+    "version": "2.3.2.0"
+}
