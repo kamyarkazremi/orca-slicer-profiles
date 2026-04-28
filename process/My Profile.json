@@ -87,5 +87,6 @@
     "version": "2.1.1.0",
     "wall_sequence": "inner-outer-inner wall",
     "xy_contour_compensation": "0.17",
-    "xy_hole_compensation": "0.54"
+    "xy_hole_compensation": "0.54",
+    "max_volumetric_speed": "22"
 }

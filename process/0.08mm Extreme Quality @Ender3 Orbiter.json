@@ -7,10 +7,8 @@
     ],
     "print_settings_id": "0.08mm Extreme Quality @Ender3 Orbiter",
     "notes": "Extreme quality + tight tolerance. 0.08mm layers, 5 walls, outer-first wall order, slow outer perimeter. Tune xy_contour_compensation and xy_hole_compensation per-filament after a calibration cube.",
-
     "layer_height": "0.08",
     "initial_layer_print_height": "0.2",
-
     "wall_loops": "5",
     "wall_sequence": "outer-inner wall",
     "only_one_wall_top": "1",
@@ -18,10 +16,8 @@
     "detect_thin_wall": "1",
     "extra_perimeters_on_overhangs": "1",
     "reduce_crossing_wall": "1",
-
     "top_shell_layers": "10",
     "bottom_shell_layers": "8",
-
     "line_width": "0.4",
     "outer_wall_line_width": "0.4",
     "inner_wall_line_width": "0.42",
@@ -29,7 +25,6 @@
     "internal_solid_infill_line_width": "0.42",
     "sparse_infill_line_width": "0.45",
     "initial_layer_line_width": "0.5",
-
     "outer_wall_speed": "25",
     "inner_wall_speed": "50",
     "top_surface_speed": "20",
@@ -46,7 +41,6 @@
     "initial_layer_travel_speed": "60",
     "travel_speed": "200",
     "travel_speed_z": "10",
-
     "outer_wall_acceleration": "500",
     "inner_wall_acceleration": "1500",
     "top_surface_acceleration": "500",
@@ -56,7 +50,6 @@
     "default_acceleration": "1500",
     "initial_layer_acceleration": "400",
     "travel_acceleration": "5000",
-
     "outer_wall_jerk": "5",
     "inner_wall_jerk": "5",
     "top_surface_jerk": "5",
@@ -64,22 +57,17 @@
     "initial_layer_jerk": "4",
     "travel_jerk": "7",
     "default_jerk": "5",
-
     "overhang_2_4_speed": "25",
     "overhang_3_4_speed": "18",
     "overhang_4_4_speed": "10",
-
     "seam_position": "aligned",
     "seam_gap": "3%",
-
     "elefant_foot_compensation": "0.15",
     "xy_contour_compensation": "0.17",
     "xy_hole_compensation": "0.54",
-
     "slow_down_layers": "6",
     "sparse_infill_pattern": "gyroid",
-
     "filename_format": "{input_filename_base}_{filament_type[initial_tool]}_XQ_{print_time}.gcode",
-
-    "version": "2.3.2.0"
+    "version": "2.3.2.0",
+    "max_volumetric_speed": "22"
 }

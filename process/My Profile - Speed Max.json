@@ -43,7 +43,7 @@
     "min_skirt_length": "20",
     "min_width_top_surface": "0",
     "name": "My Profile - Speed Max",
-    "notes": "Maximum speed. Functional parts only — expect ringing on Y-axis faces. 0.28mm layers, walls pushed to K1-M + shaper limits.",
+    "notes": "Maximum speed. Functional parts only \u2014 expect ringing on Y-axis faces. 0.28mm layers, walls pushed to K1-M + shaper limits.",
     "only_one_wall_first_layer": "1",
     "only_one_wall_top": "1",
     "outer_wall_acceleration": "6000",
@@ -87,5 +87,6 @@
     "version": "2.1.1.0",
     "wall_sequence": "inner-outer-inner wall",
     "xy_contour_compensation": "0.17",
-    "xy_hole_compensation": "0.54"
+    "xy_hole_compensation": "0.54",
+    "max_volumetric_speed": "22"
 }
